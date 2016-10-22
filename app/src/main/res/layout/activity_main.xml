@@ -12,6 +12,7 @@
     tools:context="curso.android.cisco.holamundo.MainActivity">
 
     <TextView
+        android:id="@+id/tvMenjase"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/mensaje"
@@ -24,5 +25,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         android:layout_centerHorizontal="true"
-        android:text="@string/btnIngreso"/>
+        android:text="@string/btnIngreso"
+        android:onClick="presionar_boton"/>
 </RelativeLayout>
