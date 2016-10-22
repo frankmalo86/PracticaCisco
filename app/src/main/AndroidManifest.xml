@@ -10,17 +10,19 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" >
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
         <activity android:name=".TableLayout">
 
         </activity>
-        <activity android:name=".actividad1" />
+        <activity android:name=".actividad1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".actividad2" />
         <activity android:name=".actividad3" />
         <activity android:name=".actividad4"></activity>
