@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
         final String mensaje = getResources().getString(R.string.alerta);
 
 
-        btnIngreso.setOnClickListener(new View.OnClickListener() {
+        /*btnIngreso.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Otro mensaje", Toast.LENGTH_SHORT).show();
             }
-        });
+        });*/
     }
 
     public void presionar_boton(View view){

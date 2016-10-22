@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">HolaMundo</string>
-    <string name="mensaje">Esta es mi primera aplicación en Android</string>
+    <string name="mensaje">Ingreso a la Aplicación</string>
     <string name="btnIngreso">Ingresar</string>
     <string name="alerta">Estes es un mensaje que aparece cuando doy click al botón</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_contrasenia">Contraseña</string>
 </resources>
