@@ -26,4 +26,24 @@ public class actividad1 extends AppCompatActivity {
         startActivity(Intent.createChooser(emailIntent, "Email"));
     }
 
+
+    public void irA(View view){
+        Intent intent = null;
+
+        switch (view.getId()){
+            case R.id.btn1:
+                intent = new Intent(this, actividad2.class);
+                break;
+            case R.id.btn2:
+                intent = new Intent(this, actividad3.class);
+                break;
+            case R.id.btn3:
+                intent = new Intent(this, actividad4.class);
+                break;
+
+        }
+
+        if (intent != null) startActivity(intent);
+    }
+
 }
