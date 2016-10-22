@@ -5,4 +5,5 @@
     <string name="alerta">Estes es un mensaje que aparece cuando doy click al botón</string>
     <string name="hint_usuario">Usuario</string>
     <string name="hint_contrasenia">Contraseña</string>
+    <string name="title_activity_actividad4">actividad4</string>
 </resources>
